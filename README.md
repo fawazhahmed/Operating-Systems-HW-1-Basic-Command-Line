@@ -1,5 +1,13 @@
 # Operating Systems HW 1 Basic Command Line in c++
 
+This program runs various shell commands and displays the output.
+• dir (list directory contents, Windows equivalent of ls)
+• cd (print directory)
+• mkdir (create a new directory)
+• echo (display a message)
+• type (concatenate and display content of files, Windows equivalent of cat)
+
+
 Run the program and then it will display a Main Menu with options 1-6.
 1. List directory contents
 2. Print a working directory 
