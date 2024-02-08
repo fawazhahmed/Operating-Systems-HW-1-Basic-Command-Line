@@ -24,3 +24,5 @@ Entering 4, you will see "Hello World!" using the "echo" command. It will also t
 Entering 5 will open a document named "Hello.txt" and display its contents ("Hi, how are you?") and if it is unable to open, it will tell you that it was unable to open.
 Entering 6 will exit the entire program.
 Any other number will result in an "error" message and loop asking the user for proper input.
+
+To stop command injection attacks and unauthorized access to system resources, it is essential to validate user input and manage security risks with the system function. By ensuring that only expected and safe values are accepted, proper input validation lowers the possibility that malicious commands will be carried out. Additional security and vulnerability mitigation strategies include escaping special characters, restricting privileges, and thinking about safer alternatives to running system commands. Developers can reduce the risk of user-controlled input exploitation and secure their applications by adhering to these best practices.
