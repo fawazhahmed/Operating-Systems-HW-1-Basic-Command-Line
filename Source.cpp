@@ -75,11 +75,11 @@ int main()
 		case 5:
 		{
 			std::cout << "Your file contains the following:" << std::endl;
-			int typeC = system("type Hello.txt");								//if 5 is entered, display the text and open the "Hello.txt" file
+			int typeC = system("type Hello.txt HelloWorld.txt");								//if 5 is entered, display the text and open the "Hello.txt" file
 			std::cout << std::endl;
 			if(typeC != 0)														//if it does not exist or cannot be opened, tell that to the user
 			{
-				std::cerr << "Error. File was unable to open or does not exist!" << std::endl;
+				std::cerr << "Error. Files were unable to open or does not exist!" << std::endl;
 			}
 			std::cout << std::endl << std::endl;
 			break;																//exit the case
@@ -89,15 +89,6 @@ int main()
 			break;
 
 		}
-		/*if(a>=7)
-		{
-			std::cerr << "Error: Please choose between 1-5. Choose 6 to exit." << std::endl;
-			std::cin >> a;
-			if (a == 6) { break; }
-			std::cout << std::endl;
-
-		}
-		else*/
 		std::cout << "Main Menu:" << std::endl;									//redisplay the menu at end of each run
 
 		std::cout << "1. List directory contents" << std::endl;
