@@ -32,7 +32,7 @@ Entering 3 will create a new directory named "New_Directory" and will tell you i
 
 Entering 4, you will see "Hello World!" using the "echo" command. It will also tell you if the echo command was executed properly.
 
-Entering 5 will open a document named "Hello.txt" and display its contents ("Hi, how are you?") and if it is unable to open, it will tell you that it was unable to open.
+Entering 5 will open a document named "Hello.txt" and display its contents ("Hi, how are you?") and if it is unable to open, it will tell you that it was unable to open. It will also open "HelloWorld.txt" and display its contents as well ("Hello World from the file!").
 
 Entering 6 will exit the entire program.
 
